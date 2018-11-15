@@ -24,7 +24,7 @@ kill -9 pid
 
 bin/kafka-topics.sh --create --zookeeper 192.168.0.239:2181 --replication-factor 1 --partitions 1 --topic test
 
-###删除topic
+### 删除topic
 
 bin/kafka-topics.sh --delete --topic test --zookeeper 192.168.0.239:2181
 
